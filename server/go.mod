@@ -3,7 +3,7 @@ module github.com/flipped-aurora/gin-vue-admin/server
 go 1.16
 
 require (
-	github.com/PuerkitoBio/purell v1.2.0 // indirect
+	github.com/BurntSushi/toml v1.1.0 // indirect
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
 	github.com/aliyun/aliyun-oss-go-sdk v2.1.6+incompatible
 	github.com/aws/aws-sdk-go v1.42.27
@@ -24,7 +24,6 @@ require (
 	github.com/jordan-wright/email v0.0.0-20200824153738-3f5bafa1cd84
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/lestrrat-go/strftime v1.0.6 // indirect
-	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mitchellh/mapstructure v1.2.2 // indirect
 	github.com/mojocn/base64Captcha v1.3.1
 	github.com/otiai10/copy v1.7.0
@@ -45,7 +44,6 @@ require (
 	github.com/swaggo/swag v1.8.6
 	github.com/tencentyun/cos-go-sdk-v5 v0.7.19
 	github.com/unrolled/secure v1.0.7
-	github.com/urfave/cli/v2 v2.17.1 // indirect
 	github.com/xuri/excelize/v2 v2.4.1
 	go.uber.org/zap v1.16.0
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
